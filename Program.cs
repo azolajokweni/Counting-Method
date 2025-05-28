@@ -8,9 +8,9 @@ namespace CountingMethod
 {
     class Program
     {
-        static void Main(string[] args) // Entry point
+        static void Main(string[] args)
         {
-            MyMethod(); // Call the method that handles input and counting
+            MyMethod(); // The method that handles input and counting
         }
 
         static void MyMethod()
@@ -22,7 +22,6 @@ namespace CountingMethod
             // Split the input into a list of strings
 
             CountItems(items);
-            // Count and display the items
         }
 
         static void CountItems<T>(List<T> items)
